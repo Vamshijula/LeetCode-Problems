@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/maximum-subarray/description/
+
 public class LeetCode53 {
 
     public static void main(String[] args) {
@@ -8,6 +10,8 @@ public class LeetCode53 {
     }
 
     public static int maxSubArray(int[] nums){
+
+        //using kadane's algorithm
         int sum = 0;
         int max = nums[0];
 
