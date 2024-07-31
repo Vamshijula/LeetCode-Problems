@@ -34,7 +34,7 @@ public class LeetCode48 {
 
         //after transposing the array 
         //we need to reverse the elements in the transposed array to get the output
-
+        //reversing the elements 
         for(int i=0;i<matrix.length;i++){
             for(int j=0;j<matrix.length/2;j++){
 
